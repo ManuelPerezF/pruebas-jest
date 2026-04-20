@@ -1,4 +1,4 @@
-function clasificarTriangulos(a, b, c) {
+export default function clasificarTriangulos(a, b, c) {
     // Validaciones
     if (a <= 0 || b <= 0 || c <= 0) {
         return "Error: Los lados deben ser mayores a 0";
@@ -21,4 +21,4 @@ function clasificarTriangulos(a, b, c) {
     } else {
         return "Triángulo escaleno";
     }
-} 
+}
